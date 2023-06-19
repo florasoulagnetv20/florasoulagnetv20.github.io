@@ -166,6 +166,12 @@ nav a:hover{
 	width: 100%;
 }
 
+h4{
+	font-family: helvetica;
+	
+}
+
+
 #indexpresentationprojets li{
 	position: relative;
 }
