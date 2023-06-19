@@ -1,9 +1,14 @@
-@font-face {
+/*@font-face {
     font-family: "Typefesse_Claire-Obscure";
     src: url("2-webfonts/Typefesse_Claire-Obscure.woff");      
         
-}
+}*/
 
+@font-face {
+    font-family: "Basalte-Volume";
+    src: url("2-webfonts/Basalte-Volume.otf");      
+        
+}
 
 
 img.nb{
