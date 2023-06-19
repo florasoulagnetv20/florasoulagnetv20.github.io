@@ -1,14 +1,10 @@
-/*@font-face {
+@font-face {
     font-family: "Typefesse_Claire-Obscure";
     src: url("2-webfonts/Typefesse_Claire-Obscure.woff");      
         
-}*/
-
-@font-face {
-    font-family: "Basalte-Volume";
-    src: url("2-webfonts/Basalte-Volume.otf");      
-        
 }
+
+
 
 
 img.nb{
@@ -50,7 +46,7 @@ nav{
 
 /*titre FS*/
 h1{
-	font-family: "Basalte-Volume";
+	font-family: "Typefesse_Claire-Obscure";
 	text-transform: uppercase;
 	padding-left: 3vw;
 	/*border: 1px solid red;*/
