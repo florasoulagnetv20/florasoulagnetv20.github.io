@@ -11,7 +11,7 @@
 }*/
 
 @font-face {
-    font-family: "DinaChaumont-TextBold.otf";
+    font-family: "DinaChaumont-TextBold";
     src: url("2-webfonts/DinaChaumont-TextBold.otf");      
         
 }
@@ -1138,7 +1138,23 @@ h3{
 
 
 
+#rang3VABDLR{
 
+	display: flex;
+	border: solid green 1px;
+	justify-content: space-between;
+}
+
+#rang3VABDLR li{
+	width: 49%;
+	border: solid red 1px;
+
+}
+
+
+#rang3VABDLR li img{
+	width: 100%;
+}
 
 
 
