@@ -172,7 +172,7 @@ nav a:hover{
 
 #indexpresentationprojets li h4{
 	position: absolute;
-	
+
 	top: 40%;
 	left: 20%;
 	width: 60%;
@@ -182,6 +182,10 @@ nav a:hover{
 	padding-bottom: 20px;	
 	background-color: #d9a3e7;
 	display: none;
+}
+
+#indexpresentationprojets li a{
+	color: inherit;
 }
 
 
@@ -429,6 +433,7 @@ h2{
 #domaineprojet{
 	width: 30vw;
 	font-size: 0.8em;
+	margin-top: 0.3vw;
 	border: solid green 1px;
 
 }
@@ -1076,14 +1081,39 @@ h3{
 	display: flex;
 	border: solid yellow 1px;
 }
+*/
 
-
-#rang1VABDLR ul li img{
+#rang1VABDLR{
 
 	display: flex;
 	border: solid red 1px;
+	justify-content: space-between;
 }
-*/
+
+#rang1VABDLR li{
+	width: 49%;
+}
+
+
+#rang1VABDLR li img{
+	width: 100%;
+}
+
+#rang2VABDLR{
+
+	display: flex;
+	border: solid red 1px;
+	justify-content: space-between;
+}
+
+#rang2VABDLR li{
+	width: 49%;
+}
+
+
+#rang2VABDLR li img{
+	width: 100%;
+}
 
 
 
