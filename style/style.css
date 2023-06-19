@@ -4,11 +4,11 @@
         
 }
 */
-/*@font-face {
+@font-face {
     font-family: "DinaChaumont-TextExtraBold";
     src: url("2-webfonts/DinaChaumont-TextExtraBold.otf");      
         
-}*/
+}
 
 @font-face {
     font-family: "DinaChaumont-TextBold";
@@ -181,7 +181,7 @@ nav a:hover{
 }
 
 h4{
-	font-family: helvetica;
+	font-family: "DinaChaumont-TextBold";
 	text-transform: uppercase;
 
 }
