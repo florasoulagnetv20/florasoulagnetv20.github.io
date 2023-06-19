@@ -1,0 +1,170 @@
+/*@font-face {
+    font-family: 'Typefesse_Claire-Obscure';
+    src: url('2-webfonts/Typefesse_Claire-Obscure.eot'),
+    	 url('2-webfonts/RobotoSlab-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('2-webfonts/Typefesse_Claire-Obscure.woff') format('woff'),
+         url('2-webfonts/Typefesse_Claire-Obscure.woff2') format('woff2'),
+         url('2-webfonts/RobotoSlab-Light-webfont.svg#robotoSlab_light') format('svg');*/
+}
+
+@font-face {
+    font-family: "Typefesse_Claire-Obscure";
+    src: url("style/2-webfonts/Typefesse_Claire-Obscure.woff")
+         
+        
+}
+
+#conteneur{
+	width: 100vw;
+	height: 310vh;
+}
+
+
+/*barre de navigation fixe*/
+nav{
+	width: 100vw;
+	height: 10vh;
+	position: fixed;
+	background-color: purple;
+	display: flex;
+	align-items: center;
+	/*float: right;*/
+	z-index: 6;
+
+
+	
+}
+#margenav{
+	background-color: transparent;
+	width: 100vw;
+	height: 10vh;
+}
+
+
+/*titre FS*/
+h1{
+	font-family: 'Typefesse_Claire-Obscure';
+	text-transform: uppercase;
+	padding-left: 2vw;
+
+}
+
+
+/*ul des boutons de la nav*/
+#boutonnav{
+	width: 10vw;
+	height: 6vh;
+	background-color: greenyellow;
+	z-index: 6;
+	align-items: center;
+	justify-content: right;
+	display: flex;
+	
+	
+	position: relative;
+	margin-left: 80vw;
+
+}
+
+/*btn accès page a propos*/
+#boutonaproposnav {
+	width: 5vw;
+	height: 6vh;
+	text-align: center;
+	/*line-height: 1.7em;*/
+	background-color: #9C89B8;
+}
+
+/*btn changement couleur de la page*/
+#modecouleur {
+	width: 5vw;
+	height: 6vh;
+	text-align: center;
+	/*line-height: 1.7em;*/
+	background-color: #9C89B8;
+}
+
+#boutonapropos{
+	width: 60%;
+	
+
+}
+
+
+
+
+
+
+/*partie projets index*/
+
+#indexpresentationprojets{
+	width: 100vw;
+	height: 300vh;
+	display: flex;
+	background-color: darkred;
+
+}
+
+/*colonne G*/
+
+#colonneG{
+	margin-left: 5vh;
+	margin-top: 3vw;
+	width: 64vw;
+	height: 293vh;
+	border: solid black 3px;
+	
+}
+
+#partie1colonneGimg{
+	width: 64vw;
+	height: 55vh;
+	background-color: greenyellow;
+	display: flex;
+	justify-content: space-around;
+	/*position: relative;*/
+}
+
+#catalogueartisteindex{
+	/*position: absolute;
+	right: 0;*/
+}
+
+/*
+#partie2colonneG{
+	margin-top: 5vh;
+	width: 64vw;
+	height: 100vh;
+	background-color: hotpink;
+	display: flex;
+}*/
+
+#partie2colonneGimg{
+	width: 64vw;
+	height: 55vh;
+	background-color: hotpink;
+	display: flex;
+	/*justify-content: space-around;*/
+	position: relative;
+}
+
+/*colonne D*/
+#colonneD{
+	margin-right: 5vh;
+	margin-top: 3vw;
+	width: 50vw;
+	height: 293vh;
+	border: solid orange 3px;
+	display: flex;
+	margin-left: 5vh;
+}
+
+#photoretoursourceindex{
+	left: 0;
+	position: absolute;
+}
+left: 0
+right: 0
+absolute
+
+

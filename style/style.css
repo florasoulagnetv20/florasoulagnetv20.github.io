@@ -1,0 +1,1069 @@
+@font-face {
+    font-family: "Typefesse_Claire-Obscure";
+    src: url("2-webfonts/Typefesse_Claire-Obscure.woff");      
+        
+}
+
+
+
+img.nb{
+				filter: grayscale(0%);
+				transition: .2s;
+			}
+
+img.nb:hover{
+				filter: grayscale(70%);
+			}
+
+
+
+body{
+	background-color: black;
+}
+
+/*#conteneur{
+	width: 100vw;
+	height: 300vh;
+	border: solid blue 3px;
+}
+*/
+
+/*barre de navigation fixe*/
+nav{
+	width: 100vw;
+	height: 10vh;
+	position: fixed;
+	background-color: #d9a3e7;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/*float: right;*/
+	z-index: 6;
+
+	
+}
+
+/*titre FS*/
+h1{
+	font-family: "Typefesse_Claire-Obscure";
+	text-transform: uppercase;
+	padding-left: 3vw;
+	/*border: 1px solid red;*/
+/*	width: 650px;*/
+	font-size: 2em;
+}
+
+
+
+#boutonnav{
+	width: 10vw;
+	height: 6vh;
+	/*background-color: greenyellow;*/
+	z-index: 1;
+	align-items: center;
+	justify-content: right;
+	margin-right: 30px;
+	display: flex;
+	border: 1px solid red;
+
+}
+
+
+
+
+#margenav{
+	background-color: transparent;
+	width: 100vw;
+	height: 10vh;
+}
+
+nav a{
+	text-decoration: none;
+	color: black ;
+}
+
+/*changement de couleur quand souris passe sur FS*/
+nav a:hover{
+	color: yellow;
+}
+
+/*img:hover{
+	color: white;
+}*/
+
+/*ul des boutons de la nav*/
+
+
+/*btn accès page a propos*/
+#boutonaproposnav {
+	width: 5vw;
+	border: 1px solid black;
+	height: 6vh;
+	text-align: center;
+	/*line-height: 1.7em;*/
+	/*background-color: #9C89B8;*/
+}
+
+/*btn changement couleur de la page*/
+#modecouleur {
+	width: 5vw;
+	height: 6vh;
+	text-align: center;
+	/*line-height: 1.7em;*/
+	/*background-color: #9C89B8;*/
+}
+
+#boutonapropos{
+	width: 60%;
+
+}
+
+
+
+
+
+
+
+
+
+/*partie projets index*/
+
+#indexpresentationprojets{
+	width: 100vw;
+/*	height: 141vh;*/
+	display: flex;
+	/*background-color: darkred;*/
+
+}
+
+/*colonne G*/
+
+#colonneG{
+	margin-left: 3vw;
+	margin-top: 3vh;
+	width: 64vw;
+/*	height: 135vh;
+*/	margin-bottom: 2vh;
+	/*border: solid white 3px;*/
+	
+}
+
+
+
+#partie1colonneG{
+	width: 64vw;
+	/*border: 1px solid red;*/
+/*	background-color: greenyellow;*/
+/*	display: flex;
+*/}
+
+#partie1colonneG ul{
+	display: flex;
+}
+
+#partie1colonneG ul li img{
+	width: 100%;
+}
+
+
+
+
+#catalogueartisteindex{
+	margin-left: 1vw;
+	/*border: solid blue 1px;*/
+	
+}
+
+
+#partie2colonneG ul li img{
+	margin-top: 2vh;
+	width: 100%;
+	/*height: 130vh;*/
+	/*background-color: hotpink;*/
+	display: flex;
+}
+
+#partie2colonneGimg{
+	display: flex;
+	/*border: solid red 1px;*/
+}
+
+#partie2AcolonneGimg{
+	width: 30vw;
+	/*height: 75vh;*/
+	/*display: flex;*/
+	/*border: solid orange 1px;*/
+	margin-left: 1vw;
+}
+
+#partie2BcolonneGimg{
+	width: 30vw;
+	/*height: 38vh;*/
+/*	background-color: green;*/
+	display: flex;
+	/*margin-left: 1vw;*/
+	/*border: solid blue 1px;*/
+	/*overflow: hidden;*/
+	justify-content: right;
+	justify-content: space-between;
+
+}
+
+
+
+/*#photovoyagerueindex{
+	margin-left: 1vw;
+}*/
+
+#photovoyagerueindex{
+	width: 100%;
+}
+
+#photoportraitindex{
+	/*margin-left: 1vw;*/
+	width: 100%;
+
+}
+
+#photounefoispasplusindex{
+	/*margin-left: 1vw;
+	margin-top: 2vh;*/
+	width: 100%;
+}
+
+
+
+
+
+
+
+/*colonne D*/
+#colonneD {
+	margin-right: 3vw;
+	margin-top: 3vh;
+	/*width: 100%;*/
+	width: 36vw;
+	/*height: 130vh;*/
+	/*border: solid orange 1px;*/
+	display: flex;
+	margin-left: 2vh;
+}
+
+
+#colonneD ul li img {
+	/*margin-right: 5vw;*/
+	
+	width: 100%;
+	/*width: 36vw;*/
+	/*height: 130vh;*/
+	/*border: solid orange 1px;*/
+	display: flex;*/
+	/*margin-left: 2vh;*/
+}
+
+#donneesPersonnellesindex{
+	width: 100%;
+	/*border: solid blue 1px;*/
+}
+
+#afficheDecaleindex{
+	margin-top: 2vh;
+	width: 100%;
+	/*border: solid blue 1px;*/
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	width: 100vw;
+	height: 10vh;
+	position: relative;
+	bottom: 0;
+	/*border: solid red 2px;*/
+}
+
+#pfooter{
+	font-family: helvetica;
+	color: white;
+	font-size: 0.8vw;
+	text-align: center;
+	margin-top:	3vh ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*page RetourAuxSources*/
+
+#sectionprojetsetimg{
+	width: 94vw;
+	margin-left: 3vw;
+/*	margin-right: 3vw;*/
+	border: solid blueviolet 1px;
+
+}
+
+#barreinfosprojets{
+	display: flex;
+/*	height: 180px;*/
+	margin-top: 3vh;
+	margin-bottom: 5vh;
+	border: solid beige 2px;
+	/*justify-content: space-between;*/
+}
+
+#titredatedomaineprojet{
+	width: 30vw;
+	border: solid orangered 3px;
+}
+
+#titreprojet{
+	width: 30vw;
+	border: solid blue 1px;
+}
+
+h2{
+	color: white;
+	font-family: helvetica;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+#dateetdomaine{
+	width: 30vw;
+	margin-top: 15vh;
+	border: solid darkred 1px;
+}
+
+#dateprojet{
+	width: 30vw;
+	font-size: 0.8em;
+	border: solid white 1px;
+}
+
+#domaineprojet{
+	width: 30vw;
+	font-size: 0.8em;
+	border: solid green 1px;
+
+}
+
+h3{
+	color: white;
+	font-family: helvetica;
+}
+
+#ensembleblocktexteprojet{
+	display: flex;
+}
+
+#texteprojet{
+	color: white;
+	font-family: helvetica;
+	border: solid green 1px;
+	width: 14.5vw;
+	/*margin-left: 1.5vw;*/
+	line-height: 2.3vh;
+
+}
+
+#texteprojet1{
+	color: white;
+	font-family: helvetica;
+	border: solid purple 1px;
+	width: 14.5vw;
+	margin-left: 1.5vw;
+	
+
+}
+
+#texteprojet2{
+	color: white;
+	font-family: helvetica;
+	border: solid purple 1px;
+	width: 14.5vw;
+	margin-left: 1.5vw;
+
+}
+
+#texteprojet3{
+	color: white;
+	font-family: helvetica;
+	border: solid purple 1px;
+	width: 14.5vw;
+	margin-left: 1.5vw;
+
+}
+
+#boutonprojetprecetsuivant{
+	width: 8vw;
+	height: 6vh;
+	background-color: greenyellow;
+	/*z-index: 1;*/
+	align-items: center;
+	/*justify-content: right;*/
+	/*margin-right: 30px;*/
+	display: flex;
+	justify-content: space-between;
+	margin-left: 8vw;
+
+
+}
+
+
+
+
+#boutonprecedent {
+	width: 3vw;
+	/*height: 6vh;*/
+	text-align: center;
+	/*line-height: 1.7em;*/
+	/*background-color: #9C89B8;*/
+	border: solid blue 1px;
+	/*justify-content: space-between;*/
+}
+
+#boutonprecedentmarge {
+	width: 3vw;
+	/*height: 6vh;*/
+	text-align: center;
+	/*line-height: 1.7em;*/
+	/*background-color: #9C89B8;*/
+	border: solid blue 1px;
+	/*justify-content: space-between;*/
+}
+
+
+#boutonprojetsuivant{
+	width: 3vw;
+	/*width: 100%;*/
+	justify-content: right;
+	border: solid white 1px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sectionprojet{
+	width: 94vw;
+	/*height: 300vh;*/
+	display: flex;
+	background-color: darkred;
+	justify-content: space-between;
+
+}
+
+#colonneGRAS{
+	/*margin-right: 3vw;*/
+/*	margin-top: 3vh;*/
+	/*width: 100%;*/
+	width: 46.5vw;
+	/*height: 130vh;*/
+	justify-content: space-between;
+	/*border: solid orange 1px;*/
+	/*display: flex;*/
+	/*margin-left: 2vh;*/
+
+}
+
+#partie1colonneGRAS{
+	display: flex;
+	/*border: solid white 1px;*/
+
+}
+
+#projetRAS01{
+	/*width: 100%;*/
+}
+
+#partie1AcolonneGRAS{
+	margin-left: 1.75vw;
+	/*border: solid green 1px;*/
+	/*width: 100%;*/
+}
+
+#projetRAS12{
+	/*margin-top: 2vh;*/
+	/*width: 100%;*/
+}
+
+#projetRAS14{
+	margin-top: 2vh;
+	/*width: 100%;*/
+}
+
+#partie2colonneGRAS{
+	margin-top: 2vh;
+
+}
+
+
+
+
+
+
+#colonneDRAS{
+	/*margin-right: 3vw;*/
+/*	margin-top: 3vh;*/
+	/*width: 100%;*/
+	/*width: 46.5vw;*/
+	/*height: 130vh;*/
+	/*border: solid blue 1px;*/
+	display: flex;
+	/*margin-left: 2vh;*/
+	justify-content: right;
+
+}
+
+#partie1AcolonneDRAS{
+	display: flex;
+	/*border: solid black 1px;*/
+}
+
+#partie1BcolonneDRAS{
+	margin-left: 1vw;
+	/*margin-top: 1vh;*/	
+	/*border: solid rebeccapurple 1px;*/
+}
+
+
+#partie2colonneDRAS{
+	display: flex;
+	margin-top: 2vh;
+	justify-content: space-between;
+	/*border: solid green 1px;*/
+}
+
+#partie2AcolonneDRAS{
+	/*border: solid black 1px;*/
+}
+
+#projetRAS05{
+	margin-top: 2vh;
+}
+
+#partie2BcolonneDRAS{
+	/*border: solid grey 3px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*page Catalogue d'artiste*/
+
+#sectionprojetCatArtiste{
+	width: 94vw;
+	background-color: darkred;
+	justify-content: space-between;
+}
+
+#rang1CatArtiste ul li img{
+	width: 100%;
+	/*height: 80vh;*/
+	display: flex;
+	border: solid blue 1px;
+	/*justify-content: space-between;*/
+
+}
+
+#rang1ACatArtiste{
+	width: 94vw;
+	max-height: 75vh;
+	display: flex;
+	overflow: hidden;
+	justify-content: space-between;
+
+}
+
+#projetCatArtsite02{
+	margin-left: 1vw;
+	/*border: solid white 1px;*/
+
+}
+
+
+#rang2CatArtiste ul li img{
+	width: 100%;
+	display: flex;
+	border: solid yellow 1px;
+	/*justify-content: right;*/
+	margin-top: 1vh;
+	/*justify-content: right;*/
+
+}
+
+#rang2ACatArtiste{
+	display: flex;
+	width: 94vw;	
+	/*justify-content: space-between;*/
+	border: solid green 1px;
+	justify-content: space-between;
+
+}
+
+#projetCatArtsite6{
+
+}
+
+#projetCatArtsite8{
+	margin-left: 1vw;
+	/*padding-right: -2vw;*/
+}
+
+#projetCatArtsite9{
+	/*justify-content: right;*/
+	margin-left: 1vw;
+	/*padding-right: -1vw;*/
+	/*width: 50%;*/
+}
+
+#projetCatArtsite5{
+	margin-left: 1vw;
+
+}
+
+#rang3CatArtiste ul li img{
+	width: 100%;
+	display: flex;
+	margin-top: 1vh;
+	border: solid orange 1px;
+}
+
+#rang3ACatArtiste{
+	width: 94vw;
+	display: flex;
+	/*border: solid beige 1px;*/
+	justify-content: space-between;
+}
+
+#rang4CatArtiste ul li img{
+	margin-top: 1vh;
+	width: 100%;:
+}
+
+#rang4ACatArtiste{
+	display: flex;
+	width: 94vw;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*page données Personnelles/@cesarsalade*/
+
+#rang1DP ul li img{
+	width: 100%;
+	display: flex;
+	border: solid yellow 1px;
+	/*justify-content: right;*/
+	/*margin-top: 1vh;*/
+}
+
+#rang1ADP{
+	display: flex;
+	/*padding-left: 3vw;*/
+	width: 92vw;	
+	/*justify-content: space-between;*/
+	border: solid green 1px;
+	justify-content: space-between;
+}
+
+
+
+#rang2DP ul li img{
+	width: 100%;
+	display: flex;
+	border: solid yellow 1px;
+	/*justify-content: right;*/
+	margin-top: 1vh;
+}
+
+
+
+#rang2ADP{
+	display: flex;
+	width: 94vw;	
+	/*justify-content: space-between;*/
+	border: solid green 1px;
+	justify-content: space-between;
+}
+
+
+#rang3DP ul li img{
+	width: 100%;
+	display: flex;
+	border: solid yellow 1px;
+	/*justify-content: right;*/
+	margin-top: 1vh;
+}
+
+#rang3ADP{
+	display: flex;
+	width: 94vw;	
+	/*justify-content: space-between;*/
+	border: solid green 1px;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*page format humain/format paysage*/
+
+
+#rang1FH /*ul li img*/{
+	width: 100%;
+	display: flex;
+	/*border: solid green 1px;*/
+	/*justify-content: right;*/
+	justify-content: space-between;
+	margin-top: 1vh;
+	background-color: darkred;
+}
+
+#bloc1GFH{
+	/*display: flex;*/
+	width: 36vw;	
+	/*justify-content: space-between;*/
+	border: solid red 1px;
+	/*justify-content: space-between;*/
+	justify-content: right;
+}
+
+#rang1AFH{
+	display: flex;
+	/*width: 94vw;*/	
+	/*justify-content: space-between;*/
+	border: solid green 1px;
+	justify-content: space-between;
+}
+
+
+#rang1BFH{
+	display: flex;
+	/*width: 94vw;*/	
+	/*justify-content: space-between;*/
+	border: solid green 1px;
+	justify-content: space-between;
+	margin-top: 1vh;
+}
+
+
+#rang1CFH{
+	display: flex;
+	/*width: 94vw;*/	
+	/*justify-content: space-between;*/
+	border: solid green 1px;
+	justify-content: space-between;
+	margin-top: 1vh;
+}
+
+
+
+
+#rang2FH ul li img{
+	width: 100%;
+	display: flex;
+	border: solid yellow 1px;
+	/*justify-content: right;*/
+	margin-top: 1vh;
+}
+
+#rang2AFH{
+	display: flex;
+	width: 94vw;	
+	/*justify-content: space-between;*/
+	border: solid green 1px;
+	justify-content: space-between;
+}
+
+
+#rang3FH{
+	width: 100%;
+	display: flex;
+	border: solid yellow 1px;
+	/*justify-content: right;*/
+	margin-top: 1vh;
+}
+
+
+
+#rang3AFH{
+	display: flex;
+	width: 94vw;	
+	/*justify-content: space-between;*/
+	border: solid green 1px;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*page format humain/format paysage*/
+
+
+/*#bloc1VABDLR ul li img {
+
+	display: flex;
+	border: solid yellow 1px;
+}
+
+
+#rang1VABDLR ul li img{
+
+	display: flex;
+	border: solid red 1px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
