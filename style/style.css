@@ -1,9 +1,15 @@
-@font-face {
+/*@font-face {
     font-family: "Typefesse_Claire-Obscure";
     src: url("2-webfonts/Typefesse_Claire-Obscure.woff");      
         
 }
-
+*/
+@font-face {
+    font-family: "DinaChaumont-TextExtraBold";
+    src: url("2-webfonts/DinaChaumont-TextExtraBold.otf");      
+        
+}
+DinaChaumont-TextExtraBold.otf
 
 
 
@@ -47,7 +53,8 @@ nav{
 /*titre FS*/
 h1{
 	/*font-family: "Typefesse_Claire-Obscure";*/
-	font-family: Helvetica;
+	/*font-family: Helvetica;*/	
+	font-family: DinaChaumont-TextExtraBold;
 	text-transform: uppercase;
 	padding-left: 3vw;
 	/*border: 1px solid red;*/
