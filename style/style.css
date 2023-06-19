@@ -979,7 +979,7 @@ h3{
 	background-color: darkred;
 }
 
-#bloc1GFH{
+#bloc1GFH {
 	/*display: flex;*/
 	width: 36vw;	
 	/*justify-content: space-between;*/
@@ -988,7 +988,7 @@ h3{
 	justify-content: right;
 }
 
-#rang1AFH{
+#rang1AFH {
 	display: flex;
 	/*width: 94vw;*/	
 	/*justify-content: space-between;*/
@@ -997,7 +997,7 @@ h3{
 }
 
 
-#rang1BFH{
+#rang1BFH {
 	display: flex;
 	/*width: 94vw;*/	
 	/*justify-content: space-between;*/
@@ -1036,7 +1036,7 @@ h3{
 }
 
 
-#rang3FH{
+#rang3FH ul li img{
 	width: 100%;
 	display: flex;
 	border: solid yellow 1px;
@@ -1104,57 +1104,130 @@ h3{
 }
 */
 
-#rang1VABDLR{
 
-	display: flex;
-	border: solid red 1px;
-	justify-content: space-between;
-}
-
-#rang1VABDLR li{
-	width: 49%;
-}
-
-
-#rang1VABDLR li img{
+#rang3FH ul li img{
 	width: 100%;
-}
-
-#rang2VABDLR{
-
 	display: flex;
-	border: solid red 1px;
-	justify-content: space-between;
-}
-
-#rang2VABDLR li{
-	width: 49%;
-}
-
-
-#rang2VABDLR li img{
-	width: 100%;
+	border: solid yellow 1px;
+	/*justify-content: right;*/
+	margin-top: 1vh;
 }
 
 
 
-#rang3VABDLR{
-
+#rang3AFH{
 	display: flex;
+	width: 94vw;	
+	/*justify-content: space-between;*/
 	border: solid green 1px;
 	justify-content: space-between;
 }
 
-#rang3VABDLR li{
-	width: 49%;
-	border: solid red 1px;
-
-}
-
-
-#rang3VABDLR li img{
+#bloc1VABDLR ul li img {
+	display: flex;
 	width: 100%;
+	border: solid green 1px;
+	/*justify-content: space-between;*/
 }
+
+
+#rang1VABDLR {
+	display: flex;
+	width: 94vw;
+	justify-content: space-between;
+}
+
+
+
+#rang2VABDLR ul li img {
+	display: flex;
+	width: 100%;
+	border: solid green 1px;
+	/*justify-content: space-between;*/
+	margin-top: 5vh;
+}
+
+
+#rang2AVABDLR {
+	display: flex;
+	width: 94vw;
+	justify-content: space-between;
+}
+
+
+#rang3VABDLR ul li img{
+	width: 100%;
+	/*display: flex;*/
+	border: solid yellow 1px;
+	margin-top: 5vh;
+
+}
+
+#rang3AVABDLR{
+	display: flex;
+	width: 94vw;
+	border: solid green 1px;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*page photo portraits*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
