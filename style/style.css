@@ -1208,12 +1208,41 @@ h3{
 /*page photo portraits*/
 
 
+#rang1portraits ul li img{
+	display: flex;
+	width: 100%;
+	border: solid green 1px;
+	/*justify-content: space-between;*/
+	/*margin-top: 5vh;*/
+}
+
+
+#rang1Aportraits{
+	display: flex;
+	width: 94vw;	
+	/*justify-content: space-between;*/
+	border: solid green 1px;
+	justify-content: space-between;
+}
 
 
 
+#rang2portraits ul li img{
+	display: flex;
+	width: 100%;
+	border: solid green 1px;
+	/*justify-content: space-between;*/
+	margin-top: 3vh;
+}
 
 
-
+#rang2Aportraits{
+	display: flex;
+	width: 94vw;	
+	/*justify-content: space-between;*/
+	border: solid green 1px;
+	justify-content: space-between;
+}
 
 
 
