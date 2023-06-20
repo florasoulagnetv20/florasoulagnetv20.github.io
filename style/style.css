@@ -1211,7 +1211,7 @@ h3{
 #rang1portraits ul li img{
 	display: flex;
 	width: 100%;
-	border: solid green 1px;
+	/*border: solid green 1px;*/
 	/*justify-content: space-between;*/
 	/*margin-top: 5vh;*/
 }
@@ -1221,7 +1221,7 @@ h3{
 	display: flex;
 	width: 94vw;	
 	/*justify-content: space-between;*/
-	border: solid green 1px;
+	/*border: solid green 1px;*/
 	justify-content: space-between;
 }
 
@@ -1230,7 +1230,7 @@ h3{
 #rang2portraits ul li img{
 	display: flex;
 	width: 100%;
-	border: solid green 1px;
+	/*border: solid green 1px;*/
 	/*justify-content: space-between;*/
 	margin-top: 3vh;
 }
@@ -1240,10 +1240,106 @@ h3{
 	display: flex;
 	width: 94vw;	
 	/*justify-content: space-between;*/
-	border: solid green 1px;
+	/*border: solid green 1px;*/
 	justify-content: space-between;
 }
 
+
+#rang3portraits ul li img{
+	display: flex;
+	width: 100%;
+	/*border: solid green 1px;*/
+	/*justify-content: space-between;*/
+	margin-top: 3vh;
+}
+
+
+#rang3Aportraits{
+	display: flex;
+	width: 94vw;	
+	/*justify-content: space-between;*/
+	/*border: solid green 1px;*/
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*page dis moi dix mots*/
+
+#rang1DMDM ul li img{
+	display: flex;
+	width: 100%;
+	/*border: solid green 1px;*/
+	/*justify-content: space-between;*/
+	margin-top: 3vh;
+}
+
+
+#rang1ADMDM{
+	display: flex;
+	width: 94vw;	
+	justify-content: space-between;
+	/*border: solid green 1px;*/
+	
+}
 
 
 
