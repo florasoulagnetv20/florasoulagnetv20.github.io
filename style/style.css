@@ -220,6 +220,11 @@ h4{
 				filter: grayscale(70%);
 			}
 
+#boutonprojetsuivant img:hover{
+	transform: rotate(360deg); 
+
+}
+
 #catalogueartisteindex{
 	margin-left: 1vw;
 	/*border: solid blue 1px;*/
