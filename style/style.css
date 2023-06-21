@@ -1376,14 +1376,60 @@ h3{
 
 /*page une fois et pas plus*/
 
+#rang1UFEPP ul li img{
+	display: flex;
+	/*width: 100%;*/
+	border: solid green 1px;
+	/*justify-content: space-between;*/
+	/*margin-top: 1.5vh;*/
+}
+
+
+#rang1AUFEPP{
+	display: flex;
+	width: 94vw;
+	justify-content: space-between;
+	border: solid red 1px;
+	
+}
+
+
+#rang2UFEPP ul li img{
+	display: flex;
+	width: 100%;
+	border: solid green 1px;
+	/*justify-content: space-between;*/
+	margin-top: 1.5vh;
+}
+
+
+#rang2AUFEPP{
+	display: flex;
+	width: 94vw;	
+	justify-content: space-between;
+	border: solid red 1px;
+	
+}
 
 
 
 
+#rang3UFEPP ul li img{
+	display: flex;
+	width: 100%;
+	border: solid green 1px;
+	/*justify-content: space-between;*/
+	margin-top: 1.5vh;
+}
 
 
-
-
+#rang3AUFEPP{
+	display: flex;
+	width: 94vw;	
+	justify-content: space-between;
+	border: solid red 1px;
+	
+}
 
 
 
