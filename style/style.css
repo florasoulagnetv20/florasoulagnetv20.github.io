@@ -467,7 +467,7 @@ footer{
 	width: 94vw;
 	margin-left: 3vw;
 /*	margin-right: 3vw;*/
-	border: solid blueviolet 1px;
+	/*border: solid blueviolet 1px;*/
 
 }
 
@@ -476,7 +476,7 @@ footer{
 /*	height: 180px;*/
 	margin-top: 3vh;
 	margin-bottom: 5vh;
-	border: solid beige 2px;
+	/*border: solid beige 2px;*/
 	/*justify-content: space-between;*/
 }
 
@@ -529,7 +529,7 @@ h3{
 #texteprojet{
 	color: white;
 	font-family: helvetica;
-	border: solid green 1px;
+	/*border: solid green 1px;*/
 	width: 14.5vw;
 	/*margin-left: 1.5vw;*/
 	line-height: 2.3vh;
@@ -539,7 +539,7 @@ h3{
 #texteprojet1{
 	color: white;
 	font-family: helvetica;
-	border: solid purple 1px;
+	/*border: solid purple 1px;*/
 	width: 14.5vw;
 	margin-left: 1.5vw;
 	
@@ -549,7 +549,7 @@ h3{
 #texteprojet2{
 	color: white;
 	font-family: helvetica;
-	border: solid purple 1px;
+	/*border: solid purple 1px;*/
 	width: 14.5vw;
 	margin-left: 1.5vw;
 
@@ -559,11 +559,27 @@ h3{
 	color: white;
 	font-family: helvetica;
 	/*font-size: 2.3vh;*/
-	border: solid purple 1px;
+	/*border: solid purple 1px;*/
 	width: 14.5vw;
 	margin-left: 1.5vw;
 
 }
+
+
+
+.liensitecamarade {
+	text-decoration: none;
+	color: white;
+
+}
+
+.liensitecamarade:hover{
+	color: yellow;
+
+}
+
+
+
 
 #boutonprojetprecetsuivant{
 	width: 8vw;
