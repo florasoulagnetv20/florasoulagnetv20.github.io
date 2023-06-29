@@ -253,7 +253,7 @@ nav a:hover{
 }
 
 h4{
-	font-family: "DinaChaumont-TextBold";
+	font-family: "DinaChaumont-DisplayRegular";
 	text-transform: uppercase;
 
 }
@@ -267,8 +267,8 @@ h4{
 	position: absolute;
 
 	top: 40%;
-	left: 20%;
-	width: 60%;
+	left: 15%;
+	width: 70%;
 	border-radius: 20px;
 	text-align: center;
 	padding-top: 20px;
@@ -1433,7 +1433,7 @@ h3{
 #rang1DMDM ul li img iframe{
 	display: flex;
 	width: 100%;
-	border: solid green 1px;
+	/*border: solid green 1px;*/
 	/*justify-content: space-between;*/
 	margin-top: 3vh;
 }
@@ -1443,7 +1443,7 @@ h3{
 	display: flex;
 	width: 94vw;	
 	justify-content: space-between;
-	border: solid green 1px;
+	/*border: solid green 1px;*/
 	
 }
 
