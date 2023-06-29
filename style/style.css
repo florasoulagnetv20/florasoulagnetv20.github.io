@@ -17,6 +17,22 @@
 }
 
 
+@font-face {
+    font-family: "DinaChaumont-DisplayExtraBold";
+    src: url("2-webfonts/DinaChaumont-DisplayExtraBold.otf");      
+        
+}
+
+
+@font-face {
+    font-family: "DinaChaumont-DisplayRegular";
+    src: url("2-webfonts/DinaChaumont-DisplayRegular.otf");      
+        
+}
+
+
+
+
 img.nb{
 				filter: grayscale(0%);
 				transition: .2s;
@@ -59,7 +75,7 @@ h1{
 	/*font-family: "Typefesse_Claire-Obscure";*/
 	/*font-family: Helvetica;*/	
 	/*font-family: DinaChaumont-TextExtraBold;*/
-	font-family: "DinaChaumont-TextBold";
+	font-family: "DinaChaumont-DisplayRegular";
 	text-transform: uppercase;
 	padding-left: 3vw;
 	/*border: 1px solid red;*/
@@ -1414,10 +1430,10 @@ h3{
 
 /*page dis moi dix mots*/
 
-#rang1DMDM ul li img{
+#rang1DMDM ul li img iframe{
 	display: flex;
 	width: 100%;
-	/*border: solid green 1px;*/
+	border: solid green 1px;
 	/*justify-content: space-between;*/
 	margin-top: 3vh;
 }
@@ -1427,7 +1443,7 @@ h3{
 	display: flex;
 	width: 94vw;	
 	justify-content: space-between;
-	/*border: solid green 1px;*/
+	border: solid green 1px;
 	
 }
 
