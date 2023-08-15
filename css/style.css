@@ -6,7 +6,15 @@
 	--texte-projets: white;
 }
 
-/*@media(prefers-color-scheme: )*/
+@media(prefers-color-scheme: dark){
+	:root{
+	--background: black;
+	--ecriture: white;
+	--navbarre: #FFF0F2;
+	--encadrer-projets: #FFF0F2;
+	--texte-projets: black;
+}
+}
 
 /*@font-face {
     font-family: "DinaChaumont-TextBold";
