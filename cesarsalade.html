@@ -20,11 +20,13 @@
 					
 					<ul id="boutonnav">
 					
-
-							<a href="apropos.html" alt="À Propos" title="À Propos">
+							<div>
+								<img id="changetheme" src="import/theme.png" alt="mode Dark/Light du site">
+							</div>
+							<!-- <a href="apropos.html" alt="À Propos" title="À Propos">
 								<img id="changetheme" src="import/theme.png">
 							</a>
-						</li>
+						</li> -->
 						
 						<li id="bouton-menu">
 							<h2>{ menu }</h2>
@@ -219,6 +221,38 @@
 			// $("#show").click(function(){
 			//   $("p").show();
 			// });
+
+
+			// changement de theme
+
+			const switchThemeBtn = document.querySelector('#changetheme')
+			let toggleTheme = 0;
+
+
+
+			switchThemeBtn.addEventListener('click',() => {
+
+				if(toggleTheme === 0){
+
+					document.documentElement.style.setProperty('--ecriture', 'white');
+					document.documentElement.style.setProperty('--background', 'black');
+					document.documentElement.style.setProperty('--navbarre', '#FFF0F2');
+					document.documentElement.style.setProperty('--encadrer-projets', '#FFF0F2');
+					document.documentElement.style.setProperty('--texte-projets', 'black');
+					toggleTheme++;
+
+				} else{
+
+					document.documentElement.style.setProperty('--ecriture', 'black');
+					document.documentElement.style.setProperty('--background', '#FFF0F2');
+					document.documentElement.style.setProperty('--navbarre', 'black');
+					document.documentElement.style.setProperty('--encadrer-projets', 'black');
+					document.documentElement.style.setProperty('--texte-projets', 'white');
+					toggleTheme--;
+
+
+				}
+			})
 
 		</script>
 			

@@ -2,6 +2,8 @@
 	--background: #FFF0F2;
 	--ecriture: black;
 	--navbarre: black;
+	--encadrer-projets: black;
+	--texte-projets: white;
 }
 
 /*@media(prefers-color-scheme: )*/
@@ -641,18 +643,20 @@ footer{
 	width: 100vw;
 	height: 400vh;
 	/*background-color: orange;*/
-	background-color: #FFF0F2;
+	/*background-color: #FFF0F2;*/
 }
 
 #encadrer-fond-titre{
 	width: 100vw;
 	min-height: 10vh;
-	background-color: black;
+	/*background-color: black;*/
+	background-color: var(--encadrer-projets);
 }
 
 #titre-page-projets{
 	width: 40vw;
-	color: white;
+	/*color: white;*/
+	color: var(--texte-projets);
 	font-family: DinaChaumont-DisplayBold;
 	/*font-family: helvetica;*/
 	/*font-size: 4vw;*/
@@ -669,7 +673,7 @@ footer{
 	width: 100vw;
 	height: 400vh;
 	/*background-color: green;*/
-	background-color: #FFF0F2;
+	/*background-color: #FFF0F2;*/
 }
 
 /*.li-page-projets{
@@ -856,6 +860,7 @@ h5{
 #section-presentation-page-qsj{
 	width: 100vw;
 	height: 100vh;
+	background-color: var(--background);
 	/*background-color: green;*/
 }
 
@@ -863,11 +868,13 @@ h5{
 	width: 100vw;
 	height: 100vh;
 	position: absolute;
+
 }
 
 #partie-presentation-page-qsj{
 	width: 70vw;
 	/*background-color: grey;*/
+	/*background-color: var(--background);*/
 
 	text-align: center;
 	margin: auto;
@@ -880,6 +887,7 @@ h5{
 #block-presentation-page-qsj li{
 	border: solid blue 1px;
 	width: 70vw;
+
 }
 
 h6{
@@ -887,6 +895,7 @@ h6{
 	font-family: helvetica;
 	font-size: 3vw ;
 	font-weight: 900;
+	color: var(--ecriture);
 }
 
 
@@ -894,6 +903,7 @@ h6{
 	font-family: helvetica;
 	font-size: 1.5vw;
 	margin-top: 5vh;
+	
 }
 
 #btn-block-presentation-page-qsj{
@@ -919,6 +929,7 @@ h6{
 	font-size: 1.5vw;
 	border: solid purple 1px;
 	transform: translate(0%,-4vh);
+	color: black;
 }
 
 #btn-mecontacter{
@@ -926,6 +937,7 @@ h6{
 	font-size: 1.5vw;
 	border: solid purple 1px;
 	transform: translate(0%,-4vh);
+	color: black;
 }
 
 
@@ -1028,7 +1040,8 @@ h6{
 
 #details-zone-contact p{
 	text-transform: uppercase;
-	color: black;
+	/*color: black;*/
+	color: var(--ecriture);
 	font-family: helvetica;
 	font-size: 3vw;
 
@@ -1156,7 +1169,8 @@ h6{
 #sectionduprojet{
 	width: 100vw;
 	height: 600vh;
-	background-color: grey;
+	/*background-color: grey;*/
+
 
 }
 
@@ -1166,7 +1180,7 @@ h6{
 	height: 90vh;
 	transform: translate(0vw,10vh);
 	margin: auto;
-	background-color: blueviolet;
+	/*background-color: blueviolet;*/
 }
 
 #partie2ettexte{
@@ -1397,6 +1411,7 @@ h6{
 	height: 1500vh;
 	/*background-color: grey;*/
 	/*display: block;*/
+	background-color: var(--background);
 }
 
 .marge-images{
@@ -1535,7 +1550,8 @@ h6{
 #texte-titre-projet02{
 	font-family: helvetica;
 	font-size: 2.5vw;
-	color: black;
+	/*color: black;*/
+	color: var(--ecriture);
 	text-transform: uppercase;
 	margin-bottom: 3vh;
 	
@@ -1544,7 +1560,8 @@ h6{
 #texte-description-projet02{
 	font-family: helvetica;
 	font-size: 1.5vw;
-	color: black;
+	/*color: black;*/
+	color: var(--ecriture);
 	margin-bottom: 3vh;
 	
 	
@@ -1553,7 +1570,8 @@ h6{
 .texte-domainedate-projet02{
 	font-family: helvetica;
 	font-size: 1vw;
-	color: black;
+	/*color: black;*/
+	color: var(--ecriture);
 	margin-bottom: 1vh;
 }
 
@@ -1598,7 +1616,8 @@ h6{
 
 .liensitecamarade {
 	text-decoration: none;
-	color: black;
+	/*color: black;*/
+	color: var(--ecriture);
 
 }
 
