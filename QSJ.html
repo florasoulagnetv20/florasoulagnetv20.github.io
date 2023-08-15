@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<link rel="icon" type="image/png" href="import/favicon.png">
+		<title>Qui suis-je ? - Flora SOULAGNET</title>
+	</head>
+	<body>
+		<!-- barre navigation -->
+		<header>
+				
+			<nav> 
+					<a href="index.html" title="Accueil">
+						<h1>{ flora soulagnet }
+						</h1>
+					</a>
+					
+					<ul id="boutonnav">
+					
+
+							<a href="apropos.html" alt="À Propos" title="À Propos">
+								<img id="changetheme" src="import/theme.png">
+							</a>
+						</li>
+						
+						<li id="bouton-menu">
+							<h2>{ menu }</h2>
+						</li>
+					</ul>
+				</nav>
+		</header>
+
+<!-- page menu hide and show -->
+
+		<div id="page-menu">
+			<div id="fond-menu">
+				<nav id="nav-menu"> 
+					<a href="index.html" title="Accueil">
+						<h2 id="h2-menu-logo-FS">{ flora soulagnet }
+						</h2>
+					</a>
+					
+					<ul id="boutonnav-menu">
+								
+
+					<!-- <a href="apropos.html" alt="À Propos" title="À Propos">
+						<img id="changetheme-menu" src="import/theme.png">
+					</a> -->
+					
+									
+					<li>
+					<h2 id="h2-fermer">{ fermer }</h2>
+					</li>
+					</ul>
+				</nav>
+				<ul id="axe-menu">
+					<li class="details-axe-menu">
+						<a href="QSJ.html" title="qui suis-je ?">
+							<h4>
+								Qui suis-je ?
+							</h4>
+						</a>
+					</li>
+
+					<li class="details-axe-menu">
+						<a href="tousprojets.html" title="Tous les projets">
+							<h4>
+								projets
+							</h4>
+						</a>
+					</li>
+
+					<li class="details-axe-menu">
+						<a href="contact.html" title="Me contacter">
+							<h4>
+								contact
+							</h4>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+
+<!-- marge pour la barre de navigation -->
+		<!-- <div id="margenav-qsj">
+			
+		</div>  -->
+
+
+<!-- zone texte de présentation -->
+		<section id="section-presentation-page-qsj">
+			<img src="import/fond_page_qsj.gif">
+			<div id="partie-presentation-page-qsj">
+			
+				<ul id="block-presentation-page-qsj">
+					<li>
+						<h6>
+							{ Flora Soulagnet }
+						</h6>
+					</li>
+					<li>
+						<p>
+							<!-- Je m'appelle Flora SOULAGNET. --> Je suis étudiante en DNMADe en design graphique et numérique à Boulogne-Billancourt.
+							Je suis enthousiaste, volontaire, autonome, persévérante, ouverte d’esprit et de nature curieuse. Cette curiosité m’amène à m’intéresser à des domaines divers et variés tels que les sciences, l’histoire, le sport (que j’ai d’ailleurs pratiqué pendant plusieurs années, et qui m’a permis de développer un esprit d’équipe) et plus largement à tout ce qui peut m’apporter de nouvelles connaissances. J’aime aussi découvrir des villes, des lieux culturels…
+							<br>
+							Je m'intéresse plus particulièrement au print, à l'édition, et à des techniques numériques comme la 3D. J'aime varier les médiums avec lesquels je travaille. J'aspire à des projets ludiques, colorés, immersifs, interactifs.
+							<br>
+							J'aime également la musique (plus particulièrement l'électro, la techno, la pop… même si je reste ouverte à l'écouter d'autres styles de musique).
+						</p>
+					</li>
+					<ul id="btn-block-presentation-page-qsj">
+						<li>
+							<a href="" title="">
+								<p id="btn-cv">cv</p>
+							</a>
+						</li>
+						<li>
+							<a href="" title="">
+								<p id="btn-mecontacter">me contacter</p>
+							</a>
+						</li>
+					</ul>
+				</ul>
+			</div>
+		</section>
+
+
+
+		<footer id="footer-page-QSJ">
+			<p id="footer-texte">
+				© codé en HTML/CSS, par Flora SOULAGNET, 2023 - Tous droits réservés
+				<br>
+				Mise à jour le : juillet 2023
+			</p>
+		</footer>
+
+		<script src="js/jquery-3.6.4.min.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script type="text/javascript">
+			
+			// $("#conteneur").draggable();
+
+			// $("#fermer").click(function(){
+			// 	$("#conteneur").hide();
+
+			// });
+
+			$("#page-menu").hide();
+			
+			
+			$("#bouton-menu").click(function(){
+			  $("#page-menu").show();
+			  $("header").hide();
+			});
+
+			// $("#page-menu").hide();
+			
+			
+			$("#h2-fermer").click(function(){
+			  $("#page-menu").hide();
+			  $("header").show();
+			});
+
+
+
+			// $("#show").click(function(){
+			//   $("p").show();
+			// });
+
+		</script>
+			
+	</body>
+</html>
