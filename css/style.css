@@ -575,7 +575,7 @@ footer{
 	align-items: center;
 	justify-content: space-around;
 
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 
 	margin-top: 3vh;
 
@@ -782,7 +782,7 @@ h5{
 	align-items: center;
 	justify-content: space-around;
 
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 
 	margin-top: 3vh;
 
@@ -862,7 +862,7 @@ h5{
 	display: flex;
 	align-items: center;
 
-	border: solid blueviolet 1px;
+	/*border: solid blueviolet 1px;*/
 }
 
 #section-presentation-page-qsj{
@@ -893,7 +893,7 @@ h5{
 }
 
 #block-presentation-page-qsj li{
-	border: solid blue 1px;
+	/*border: solid blue 1px;*/
 	width: 70vw;
 
 }
@@ -935,7 +935,7 @@ h6{
 #btn-cv{
 	font-family: helvetica;
 	font-size: 1.5vw;
-	border: solid purple 1px;
+	/*border: solid purple 1px;*/
 	transform: translate(0%,-4vh);
 	color: black;
 }
@@ -943,9 +943,207 @@ h6{
 #btn-mecontacter{
 	font-family: helvetica;
 	font-size: 1.5vw;
-	border: solid purple 1px;
+	/*border: solid purple 1px;*/
 	transform: translate(0%,-4vh);
 	color: black;
+}
+
+
+hr{
+ 	width: 95vw;
+	color: var(--ecriture);
+ 	border-top: 0.4vw dotted;
+ 	border-bottom: transparent;
+
+}
+
+
+#section-references-page-qsj{
+	width: 100vw;
+	height: 100vh;
+	/*background-color: blueviolet;*/
+	background-color: var(--background);
+}
+
+
+/*#section-references-page-qsj img{
+	width: 10vw;
+	height: 10vh;*/
+	/*background-color: blueviolet;*/
+	
+}
+
+#section-references{
+	width: 70vw;
+	height: 90vh;
+	/*border: solid orange 1px;*/
+	margin: auto;
+	
+
+}
+
+#texte-references{
+	text-transform: uppercase;
+	/*font-family: 'DinaChaumont-DisplayBold' ;*/
+	font-family: helvetica;
+	color: var(--ecriture);
+	margin-top: 2vh;
+	font-size: 2vw;
+}
+
+#section-references ul{
+/*	width: 100%;*/
+	/*height: 80vh;*/
+	margin-top: 3vh;
+	/*border: solid darkred 1px;*/
+	display: flex;
+}
+
+#partie1ref{
+	width: 70vw;
+	height: 30vh; /* a voir */
+	margin-top: 2vh;
+	/*background-color: green;*/
+	display: flex;
+}
+
+#li-references{
+	position: relative;
+	
+}
+
+
+
+
+.p-infos-ref{
+	position: absolute;
+	/*text-transform: uppercase;*/
+	z-index: 2;
+	/*border: blue 1px solid;*/
+
+	/*width: 50vw;*/
+	
+	/*padding: 2px;*/
+	/*margin-left: 2vw;*/
+
+}
+	
+.p-infos-ref p{
+	/*color: white;*/
+	
+	font-family: helvetica;
+	font-size: 0.8vw;
+	/*margin-top: 2vh;*/
+	transform: translate(1px,-14vh);
+	background-color: pink;
+	border-radius: 3px;
+	padding: 2px;
+}
+
+
+div.p-infos-ref{
+	
+	filter: opacity(0%);
+	transition: .1s;
+}
+
+div.p-infos-ref:hover{
+	
+
+	filter: opacity(100%);
+}
+
+li.nb{
+	
+	filter: grayscale(0%);
+	transition: .1s;
+}
+
+li.nb:hover{
+	
+
+	filter: grayscale(100%);
+}
+
+
+
+////////////////////////////
+
+#section-references-page-qsj{
+	width: 100vw;
+	height: 100vh;
+	/*background-color: blueviolet;*/
+	/*background-color: var(--background);*/
+}
+
+#div-zone-ref{
+	width: 70vw;
+	/*height: 90vh;*/
+	/*border: solid orange 1px;*/
+	margin: auto;
+	margin-top: 5vh;
+}
+
+
+#chapitre-ref{
+	padding: 10px;
+	/*background-color: pink;*/
+}
+
+#p-chapitre-ref{
+	text-transform: uppercase;
+	/*font-family: 'DinaChaumont-DisplayBold' ;*/
+	font-family: helvetica;
+	color: var(--ecriture);
+	/*margin-top: 2vh;*/
+	font-size: 2vw;
+}
+
+#zone-ref{
+	width: 70vw;
+	/*height: 85vh;*/
+
+	/*background-color: green;*/
+}
+
+.ligne-references{
+	width: 70vw;
+	height: 20vh;
+	display: flex;
+	/*background-color: orange;*/
+}
+
+.ligne-references li{
+	/*height: 20vh;*/
+	/*width: 7vw;*/
+
+	padding: 1.5px;
+	margin:3px;
+
+	/*position: absolute;*/
+
+	/*background-color: grey;*/
+
+}
+
+.ligne-references li img{
+	/*height: 100%;*/
+	/*width: 8vw;*/
+	height: 18vh;
+	padding: 1.5px;
+	/*margin: auto;*/
+
+	/*position: absolute;*/
+
+	/*border: solid green 1px;*/
+
+}
+
+
+.marge-ref{
+	width: 70vw;
+	height: 2vh;
+	background-color: black;
 }
 
 
