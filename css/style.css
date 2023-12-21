@@ -635,12 +635,14 @@ a {
 
 
 
-/*test grid*/
+/*test grid portraits*/
 
 #conteneurgridprojet{
 	width: 92vw;
 	/*height: 1800px;*/
 	/*border: 1px solid black;*/
+
+	padding-top: 5vh;
 
 	margin: 20px auto;
 	/*object-fit: cover;*/
@@ -842,3 +844,80 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*page projet voyage au bout de la rue*/
+#conteneurgridprojetvoyage{
+	width: 92vw;
+	/*height: 1800px;*/
+	/*border: 1px solid black;*/
+
+	padding-top: 5vh;
+
+	margin: 20px auto;
+	/*object-fit: cover;*/
+	
+
+	display: grid;
+	/*grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;*/
+	/*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+	grid-template-columns: repeat(2, 44vw);
+	/*grid-template-rows: 20% 20% 20% 20% 20%;*/
+	grid-template-rows: repeat(39,3vh);
+	grid-auto-flow: row;
+	grid-gap: 4vw ;
+	justify-content: space-between;
+}
+
+#gridgrandeimgvoyagerue{
+	grid-column: 1/2;
+	grid-row: 14/27;
+}
+
+
+#gridpetiteimageg2voyagerue{
+	grid-column: 2/3;
+	grid-row: 14/27;
+}
+
+
+#gridpetiteimaged2voyagerue{
+	grid-column: 1/2;
+	grid-row: 27/40;
+}
+
+
+#gridpetiteimageg3voyagerue{
+	grid-column: 2/3;
+	grid-row: 27/40;
+}
