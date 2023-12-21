@@ -385,13 +385,28 @@ a {
 #pageportraits ul{
 	/*width: 95vw;*/
 	width: 92vw;
-	display: flex;
+	/*display: flex;*/
 	margin: auto;
 	/*border: red 1px solid;*/
 	margin-bottom: 20px;
 	justify-content: space-between;
+	flex-wrap: wrap;
 
 
+}
+
+h3{
+	font-family: 'DinaChaumont-TextRegular' ;
+	/*border: red 1px solid;*/
+	font-size: 2em;
+	text-transform: uppercase;
+	/*width: 30vw;*/
+}
+
+#titreprojet{
+	font-family: 'DinaChaumont-TextRegular' ;
+	font-size: 2em;
+	border: red 1px solid;
 }
 
 #texteportraits{
