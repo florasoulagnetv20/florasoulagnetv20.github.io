@@ -63,6 +63,28 @@ ul{
 	padding: 15px;
 	/*border: red 1px solid;*/
 
+
+}
+
+
+.li-nav:hover{
+	transform: rotate(5deg);
+	transition: ease all 0.5s;
+	color: pink;
+	/*transform: scale(0.9) rotateZ(180deg);*/ 
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: #d59ac5;
+	transition: ease all 0.2s;
+}
+
+.liensitecamarade{
+	text-decoration: none;
 }
 
 #div-showreel{
@@ -285,7 +307,7 @@ h4{
 }
 
 a {
-	text-decoration: none;
+	color: black;
 }
 
 #conteneur article{
@@ -600,6 +622,22 @@ a {
 	/*font-size: 1.3em;*/
 }
 
+
+.surlignerfushia:hover{
+	color: #cb076a; /*fushia*/
+}
+
+.surlignerjaune:hover{
+	color: #fcc026; /*jaune*/
+}
+
+.surlignerbleu:hover{
+	color: #234a9a; /*bleu*/
+}
+
+.surlignerrose:hover{
+	color: #d59ac5; /*rose*/
+}
 
 
 
@@ -921,3 +959,59 @@ a {
 	grid-column: 2/3;
 	grid-row: 27/40;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*page projet une fois et pas plus*/
+
+
+#conteneurgridprojetunefoisetpasplus{
+	width: 92vw;
+	/*height: 1800px;*/
+	/*border: 1px solid black;*/
+
+	padding-top: 5vh;
+
+	margin: 20px auto;
+	/*object-fit: cover;*/
+	
+
+	display: grid;
+	/*grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;*/
+	/*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+	grid-template-columns: repeat(2, 44vw);
+	/*grid-template-rows: 20% 20% 20% 20% 20%;*/
+	grid-template-rows: repeat(39,3vh);
+	grid-auto-flow: row;
+	grid-gap: 4vw ;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
