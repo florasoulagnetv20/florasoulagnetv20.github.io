@@ -737,3 +737,108 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*page décalé*/
+
+#conteneurgridprojetdecale{
+	width: 92vw;
+	/*height: 1800px;*/
+	/*border: 1px solid black;*/
+	padding-top: 5vh;
+
+	margin: 20px auto;
+	/*object-fit: cover;*/
+	
+
+	display: grid;
+	/*grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;*/
+	/*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+	grid-template-columns: repeat(2, 44vw);
+	/*grid-template-rows: 20% 20% 20% 20% 20%;*/
+	grid-template-rows: repeat(11,4vh);
+	grid-auto-flow: row;
+	grid-gap: 4vw ;
+	/*justify-content: space-between;*/
+}
+
+
+
+
+
+.test{
+	width: 100%;
+	height: 100%;
+	/*object-fit: cover;*/
+	/*overflow: hidden;*/
+}
+
+#gridpetiteimagegdecale{
+	grid-column: 1/2;
+	grid-row: 1/12;
+	/*width: 40vw;*/
+	/*width: 100%;*/
+
+
+}
+
+#gridpetiteimageddecale{
+	grid-column: 2/3;
+	grid-row: 1/12;
+	/*width: 50vw;*/
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
