@@ -54,6 +54,14 @@ ul{
 	display: flex;
 }
 
+#siteenconstruction{
+	font-family: DinaChaumont-DisplayRegular;
+	text-transform: uppercase;
+	width: 50vw;
+	margin: auto;
+	padding: 15px;
+	font-size: 2em;
+}
 
 .li-nav{
 	font-family: DinaChaumont-DisplayRegular;
