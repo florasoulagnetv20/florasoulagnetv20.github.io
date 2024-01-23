@@ -2,7 +2,9 @@ html{
 	scroll-behavior: smooth;
 }
 
-
+body{
+	background-image:url(../import/fond_procreate_carre2.png)  ;
+}
 
 section{
 	background-color: orange;
@@ -17,14 +19,34 @@ section{
 	
 }
 
+header{
+	background-color: yellow;
+	width: 100vw;	
+	height: 60px;
+	display: flex;
+	justify-content: space-between;	
+}
+
+
+aside{
+	background-color: red;
+	z-index: 3;
+	position: fixed;
+	width: 60px;
+	height: 400px;
+	left: 0px;
+	top: calc(50vh - 200px);
+}
+
+
 #projets{
+	height: calc(100vh - 80px) ;
 	width: 80vw;
-	margin: auto;
+	margin: 10px auto;
 	/*top: -100px;*/
 	border: hotpink 1px solid;
 	position: relative;
-	padding-top: 36%;
-	/*overflow: hidden;*/
+	overflow-y: scroll;
 }
 
 article{
