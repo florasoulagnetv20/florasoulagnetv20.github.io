@@ -1,0 +1,50 @@
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+section{
+	background-color: orange;
+	width: 100vw;
+	height: 100vh;
+	z-index: 2;
+
+}
+
+#fond{
+	width: 100%;
+	
+}
+
+#projets{
+	width: 80vw;
+	margin: auto;
+	/*top: -100px;*/
+	border: hotpink 1px solid;
+	position: relative;
+	padding-top: 36%;
+	/*overflow: hidden;*/
+}
+
+article{
+	
+	border: green 1px solid;
+	position: relative;
+	padding-bottom: 10px;
+	margin-bottom: 50vh;
+	height: 100%;
+
+	
+
+}
+
+
+img{
+	width: 100%;
+	position: absolute;
+
+}
+
+
+
