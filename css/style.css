@@ -307,6 +307,16 @@ article{
 	grid-row: 19/29;
 }
 
+#glitch{
+	grid-column: 5/11;
+	grid-row: 21/28;
+}
+
+#madfest{
+	grid-column: 11/17;
+	grid-row: 22/30;
+}
+
 
 h4{
 	font-family: "DinaChaumont-DisplayRegular";

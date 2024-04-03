@@ -20,23 +20,105 @@ section{
 }
 
 header{
-	background-color: yellow;
+	background-color: #1d1d1d;
 	width: 100vw;	
 	height: 60px;
 	display: flex;
 	justify-content: space-between;	
 }
 
+nav{
+	display: flex;
+	width: 40vw;
+	height: 5vh;
+	/*border: green 1px solid;*/
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 12px;
+	margin-left: 10px;
+	
+}
+
+nav div {
+	/*height: 50px;*/
+	width: 30px;
+	height: 30px;
+	/*position: absolute;*/
+	/*margin:auto;*/
+
+	/*border: hotpink solid 1px;*/
+
+}
+nav div img{
+	width: 30px;
+	/*position: absolute;*/
+}
+
+p{
+	
+	font-family: helvetica;
+	color: white;
+	text-align: center;
+	/*margin-top: 5vh;*/
+	align-items: center;
+
+
+}
+
+#outils {
+	display: flex;
+	width: 30vw;
+	height: 5vh;
+	/*border: green 1px solid;*/
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 12px;
+	margin-right: 10px;
+}
+
+#outils div {
+	/*height: 50px;*/
+	width: 20px;
+	height: 20px;
+	/*position: absolute;*/
+	/*margin:auto;*/
+
+
+	/*border: hotpink solid 1px;*/
+
+}
+#outils div img{
+	width: 20px;
+	/*position: absolute;*/
+}
+
+aside div {
+	/*height: 50px;*/
+	width: 30px;
+	/*height: 20px;*/
+	/*position: absolute;*/
+	margin: 1vh auto;
+
+	/*border: hotpink solid 1px;*/
+}
+
+.img-barre{
+	width: 100%;
+	position: relative;
+}
+
 
 aside{
-	background-color: red;
+	background-color: #1d1d1d;
 	z-index: 3;
 	position: fixed;
-	width: 60px;
+	width: 40px;
 	height: 400px;
 	left: 0px;
 	top: calc(50vh - 200px);
+	border-radius: 6px;
 }
+
 
 
 #projets{
@@ -44,7 +126,7 @@ aside{
 	width: 80vw;
 	margin: 10px auto;
 	/*top: -100px;*/
-	border: hotpink 1px solid;
+	/*border: hotpink 1px solid;*/
 	position: relative;
 	overflow-y: scroll;
 }
@@ -56,6 +138,7 @@ article{
 	padding-bottom: 10px;
 	margin-bottom: 50vh;
 	height: 100%;
+	margin-top: calc(50vh - 35vh);
 
 	
 
