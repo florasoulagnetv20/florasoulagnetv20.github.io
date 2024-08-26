@@ -1,0 +1,1093 @@
+@font-face {
+    font-family: "DinaChaumont-DisplayRegular";
+    src: url("font/DinaChaumont-DisplayRegular.woff2");      
+        
+}
+
+@font-face {
+    font-family: "DinaChaumont-TextRegular";
+    src: url("font/DinaChaumont-TextRegular.woff2");      
+        
+}
+
+
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background: white;
+}
+
+nav{
+	height: 8vh;
+	/*border: red 1px solid;*/
+	display: flex;
+	align-items: center; /*aligner dans la hauteur*/
+	justify-content: space-between;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+}
+
+#logo{
+	/*background-color: yellow;*/
+	margin-left: 0.5vw;
+	/*margin-left: 2vw;*/
+	/*object-fit: cover;*/
+
+}
+nav img{
+	/*width: 2.5vw;
+	height: 5vh;*/
+	width: 40%;
+	/*object-fit: cover;*/
+
+}
+
+ul{
+	/*background-color: blue;*/
+	display: flex;
+}
+
+#siteenconstruction{
+	font-family: DinaChaumont-DisplayRegular;
+	text-transform: uppercase;
+	width: 50vw;
+	margin: auto;
+	padding: 15px;
+	font-size: 2em;
+}
+
+.li-nav{
+	font-family: DinaChaumont-DisplayRegular;
+	text-transform: uppercase;
+	width: 8vw;
+	margin: auto;
+	padding: 15px;
+	/*border: red 1px solid;*/
+
+
+}
+
+
+.li-nav:hover{
+	transform: rotate(5deg);
+	transition: ease all 0.5s;
+	color: pink;
+	/*transform: scale(0.9) rotateZ(180deg);*/ 
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: #d59ac5;
+	transition: ease all 0.2s;
+}
+
+.liensitecamarade{
+	text-decoration: none;
+}
+
+#div-showreel{
+	/*background-color: orange;*/
+	width: 100vw; /*enlever les dimensions quand showreel final*/
+	height: 100vh;
+}
+
+#titre{
+	padding-top: 100px;
+}
+
+h1{
+	text-transform: uppercase;
+	font-size: 5em;
+	font-family: DinaChaumont-DisplayRegular;
+	text-align: center;
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 1.65em;
+	font-family: DinaChaumont-DisplayRegular;
+	text-align: center;
+	/*background-color: blue;*/
+}
+
+footer{
+	height: 60px;
+	background-color: #fcc026;
+	margin-top: 10vh;
+	text-align: center;
+}
+
+
+#p-footer{
+
+	font-size: 0.8em;
+	font-family: helvetica;
+	/*font-family: DinaChaumont-DisplayRegular;*/
+	width: 80vw;
+	/*height: 8vh;*/
+	margin: auto;
+	text-align: center;
+	/*border: red 1px solid;*/
+	/*width: 100vw;*/
+	/*margin-top: 10px;*/
+	/*padding-top: auto;*/
+	padding: 15px;
+	align-items: center;
+	color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*////PROJETS/////*/
+
+#conteneur{ /*boite mère*/
+	width: 92vw;
+	/*height: 1800px;*/
+	/*border: 1px solid black;*/
+	margin: 20px auto;
+	/*object-fit: cover;*/
+	
+
+	display: grid;
+	/*grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;*/
+	/*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+	grid-template-columns: repeat(16, 1fr);
+	/*grid-template-rows: 20% 20% 20% 20% 20%;*/
+	grid-template-rows: repeat(28,5vh);
+	grid-auto-flow: row;
+	grid-gap: 10px ; /*gouttière entre les grilles*/
+}
+
+article{
+	/*border: 2px solid red;*/
+/*	height: 210p;
+*/	/*grid-column: span 2;*/
+}
+
+.test{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	/*overflow: hidden;*/
+}
+
+
+
+#portraits{
+	/*grid-column-start: 1;
+	grid-column-end:5 ;*/
+	grid-column: 1/5;
+
+
+	/*grid-row-start: 1 ;
+	grid-row-end: 3;*/
+	/*grid-row: span 7;*/
+	grid-row: 1/10;
+
+	/*background: yellow;*/
+
+	/*width: 30vw;*/
+
+	/*overflow: hidden;*/
+}
+
+
+#formatpaysage{
+
+	/*grid-column-start: 2;
+	grid-column-end:6 ;*/
+	grid-column: 5/11;
+
+	/*grid-row-start: 2 ;
+	grid-row-end: 3;*/
+	/*grid-row: span 11 ;*/
+	grid-row: 1/16;
+
+	/*background: yellow;*/
+}
+
+#voyageboutrue{
+	grid-column: 11/14;
+	grid-row: 1/8;
+	/*width: 13vw;*/
+
+	/*height: 50%;*/
+}
+
+#decale{
+	grid-column: 14/17;
+	grid-row: 1/8;
+}
+
+#cesarsalade{
+	grid-column: 11/17;
+	grid-row: 8/15;
+}
+
+#catalogueartiste{
+	grid-column: 1/5;
+	grid-row: 10/14;
+	/*width: 30vw;*/
+}
+
+#unefoisetpasplus{
+	grid-column: 1/5;
+	
+	/*grid-column: span 5;*/
+
+	/*grid-row-start: 2 ;
+	grid-row-end: 3;*/
+	grid-row: 14/19;
+
+	/*background: green;*/
+}
+
+#koudou{
+	grid-column: 11/17;
+	grid-row: 15/22;
+}
+
+#ravel{
+	grid-column: 5/11;
+	grid-row: 16/21;
+
+	/*grid-column: 11/17;
+	grid-row: 16/19;*/
+}
+
+#timbre{
+	grid-column: 1/5;
+	grid-row: 19/29;
+}
+
+#glitch{
+	grid-column: 5/11;
+	grid-row: 21/28;
+}
+
+#madfest{
+	grid-column: 11/17;
+	grid-row: 22/30;
+}
+
+
+h4{
+	font-family: "DinaChaumont-DisplayRegular";
+	text-transform: uppercase;
+
+}
+
+a {
+	color: black;
+}
+
+#conteneur article{
+	position: relative;
+}
+
+#conteneur article h4{
+	position: absolute;
+
+	top: 40%;
+	left: 15%;
+	width: 70%;
+	border-radius: 20px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;	
+	/*background-color: #234a9a; bleu*/
+	/*background-color: #fcc026; yellow*/
+	background-color: #cb076a ;
+	display: none;
+}
+
+#conteneur article a{
+	color: inherit;
+}
+
+
+#conteneur article:hover h4{
+	display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*////// PORTRAITS /////////////*/
+
+#pageportraits{
+	width: 100vw;
+	/*height: 1500vh;*/
+	/*background-color: skyblue;*/
+	margin-top: 20px;
+
+}
+ 
+
+
+#pageportraits ul{
+	/*width: 95vw;*/
+	width: 92vw;
+	/*display: flex;*/
+	margin: auto;
+	/*border: red 1px solid;*/
+	margin-bottom: 20px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+
+}
+
+h3{
+	font-family: 'DinaChaumont-TextRegular' ;
+	/*border: red 1px solid;*/
+	font-size: 2em;
+	text-transform: uppercase;
+	/*width: 30vw;*/
+}
+
+#titreprojet{
+	font-family: 'DinaChaumont-TextRegular' ;
+	font-size: 2em;
+	border: red 1px solid;
+}
+
+#texteportraits{
+	width: 48%;
+	padding-right: 2vw;
+	font-family: 'DinaChaumont-TextRegular' ;
+	font-size: 1.3em;
+
+}
+
+#pageportraits div{
+	width: 95vw;
+	margin: auto;
+}
+
+
+#imageintroprojet{
+	width: 48%;
+	/*background-color: yellow;*/
+}
+
+
+#imageintroprojet img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+#pageportraits div figure{
+	width: 95vw;
+	/*height: 100vh;*/
+	/*background-color: green;*/
+	margin-bottom: 3vh;
+	margin: auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+	object-fit: cover;
+
+}
+
+#pageportraits div figure img{
+	width: 100%;
+	
+}
+
+
+#pageportraits div ul{
+	width: 95vw;
+	/*height: 100vh;*/
+	/*background-color: yellow;*/
+	/*margin: auto;*/
+	justify-content: space-between;
+	display: flex;
+	margin-bottom: 20px;
+
+	
+}
+
+
+#pageportraits div ul li{
+	width: 48%;
+	/*background-color: darkred;*/
+}
+
+.petiteimage{
+	width: 100%;
+	/*height: 100vh;*/
+	/*background-color: blueviolet;*/
+	/*margin-bottom: 3vh;*/
+}
+	
+
+
+#boutonprojets{
+	width: 95vw;
+	/*height: 100vh;*/
+	/*background-color: yellow;*/
+	/*margin: auto;*/
+	justify-content: space-between;
+	display: flex;
+	margin-bottom: 20px;
+}
+
+#boutonprojets li{
+	width: 10%;
+	/*background-color: purple;*/
+	font-family: 'DinaChaumont-TextRegular';
+
+}
+
+
+#boutonsuivant{
+	text-align: right ;
+	font-family: 'DinaChaumont-TextRegular';
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PAGE A PROPOS*/
+
+#sectionapropos{
+	width: 100vw;
+	/*height: 1500vh;*/
+	/*background-color: skyblue;*/
+	margin-top: 20px;
+}
+
+
+#sectionapropos div{
+	width: 80vw;
+	/*height: 1500vh;*/
+/*	background-color: green;*/
+	margin: auto;
+	
+}
+
+
+#sectionapropos div p{
+
+	font-family: 'DinaChaumont-TextRegular';	
+	
+}
+
+
+#competenceslogiciels{
+	width: 80vw;
+	/*background-color: black;*/
+	display: flex;
+	/*height: 30vh;*/
+
+}
+
+#competenceslogiciels ul{
+	width: 80vw;
+	/*background-color: grey;*/
+	display: flex;
+/*	justify-content: space-around;*/
+	/*padding: 30px;*/
+	margin-top: 30px;
+	text-align: left;
+	margin-bottom: 2vh;
+	
+
+}
+
+
+#competenceslogiciels ul li{
+	font-family: 'DinaChaumont-TextRegular';
+	
+
+}
+
+#liste{
+	margin-left: 2vw;
+
+}
+
+
+#cvcontact{
+	width: 80vw;
+	/*border: red 1px solid;*/
+	margin: auto;
+	margin-top: 5vh;
+	justify-content: space-between;
+
+
+}
+
+#cvcontact li{
+	/*border: yellow 3px solid;*/
+	font-family: 'DinaChaumont-TextRegular';
+	/*font-size: 1.3em;*/
+}
+
+
+.surlignerfushia:hover{
+	color: #cb076a; /*fushia*/
+}
+
+.surlignerjaune:hover{
+	color: #fcc026; /*jaune*/
+}
+
+.surlignerbleu:hover{
+	color: #234a9a; /*bleu*/
+}
+
+.surlignerrose:hover{
+	color: #d59ac5; /*rose*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*test grid portraits*/
+
+#conteneurgridprojet{
+	width: 92vw;
+	/*height: 1800px;*/
+	/*border: 1px solid black;*/
+
+	padding-top: 5vh;
+
+	margin: 20px auto;
+	/*object-fit: cover;*/
+	
+
+	display: grid;
+	/*grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;*/
+	/*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+	grid-template-columns: repeat(2, 44vw);
+	/*grid-template-rows: 20% 20% 20% 20% 20%;*/
+	grid-template-rows: repeat(60,3vh);
+	grid-auto-flow: row;
+	grid-gap: 4vw ;
+	justify-content: space-between;
+}
+
+
+
+
+
+.test{
+	width: 100%;
+	height: 100%;
+	/*object-fit: cover;*/
+	/*overflow: hidden;*/
+}
+
+#gridpetiteimageg{
+	grid-column: 1/2;
+	grid-row: 1/14;
+	/*width: 40vw;*/
+	/*width: 100%;*/
+
+
+}
+
+#gridpetiteimaged{
+	grid-column: 2/3;
+	grid-row: 1/14;
+	/*width: 50vw;*/
+	
+
+}
+
+
+
+#gridgrandeimg{
+	grid-column: 1/3;
+	grid-row: 14/26;
+	/*width: 50vw;*/
+
+
+}
+
+
+
+#gridpetiteimageg2{
+	grid-column: 1/2;
+	grid-row: 26/39;
+	/*width: 50vw;*/
+
+
+}
+
+#gridpetiteimaged2{
+	grid-column: 2/3;
+	grid-row: 26/39;
+	/*width: 50vw;*/
+	
+
+}
+
+
+#gridgrandeimg2{
+	grid-column: 1/3;
+	grid-row: 39/51;
+	/*width: 50vw;*/
+
+
+}
+
+
+#gridpetiteimageg3{
+	grid-column: 1/2;
+	grid-row: 51/64;
+	/*width: 50vw;*/
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*page décalé*/
+
+#conteneurgridprojetdecale{
+	width: 92vw;
+	/*height: 1800px;*/
+	/*border: 1px solid black;*/
+	padding-top: 5vh;
+
+	margin: 20px auto;
+	/*object-fit: cover;*/
+	
+
+	display: grid;
+	/*grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;*/
+	/*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+	grid-template-columns: repeat(2, 44vw);
+	/*grid-template-rows: 20% 20% 20% 20% 20%;*/
+	grid-template-rows: repeat(11,4vh);
+	grid-auto-flow: row;
+	grid-gap: 4vw ;
+	/*justify-content: space-between;*/
+}
+
+
+
+
+
+.test{
+	width: 100%;
+	height: 100%;
+	/*object-fit: cover;*/
+	/*overflow: hidden;*/
+}
+
+#gridpetiteimagegdecale{
+	grid-column: 1/2;
+	grid-row: 1/12;
+	/*width: 40vw;*/
+	/*width: 100%;*/
+
+
+}
+
+#gridpetiteimageddecale{
+	grid-column: 2/3;
+	grid-row: 1/12;
+	/*width: 50vw;*/
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*page projet voyage au bout de la rue*/
+#conteneurgridprojetvoyage{
+	width: 92vw;
+	/*height: 1800px;*/
+	/*border: 1px solid black;*/
+
+	padding-top: 5vh;
+
+	margin: 20px auto;
+	/*object-fit: cover;*/
+	
+
+	display: grid;
+	/*grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;*/
+	/*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+	grid-template-columns: repeat(2, 44vw);
+	/*grid-template-rows: 20% 20% 20% 20% 20%;*/
+	grid-template-rows: repeat(39,3vh);
+	grid-auto-flow: row;
+	grid-gap: 4vw ;
+	justify-content: space-between;
+}
+
+#gridgrandeimgvoyagerue{
+	grid-column: 1/2;
+	grid-row: 14/27;
+}
+
+
+#gridpetiteimageg2voyagerue{
+	grid-column: 2/3;
+	grid-row: 14/27;
+}
+
+
+#gridpetiteimaged2voyagerue{
+	grid-column: 1/2;
+	grid-row: 27/40;
+}
+
+
+#gridpetiteimageg3voyagerue{
+	grid-column: 2/3;
+	grid-row: 27/40;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*page projet une fois et pas plus*/
+
+
+#conteneurgridprojetunefoisetpasplus{
+	width: 92vw;
+	/*height: 1800px;*/
+	/*border: 1px solid black;*/
+
+	padding-top: 5vh;
+
+	margin: 20px auto;
+	/*object-fit: cover;*/
+	
+
+	display: grid;
+	/*grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;*/
+	/*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+	grid-template-columns: repeat(2, 44vw);
+	/*grid-template-rows: 20% 20% 20% 20% 20%;*/
+	grid-template-rows: repeat(39,3vh);
+	grid-auto-flow: row;
+	grid-gap: 4vw ;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*page portraits test 2*/
+
+.imgpresentationprojet{
+  background-color: red;
+  margin-left: 20px;
+  border: red 1px solid;
+}
+
+
+.imgpresentationprojet img{
+	width: 95vw;
+	/*height: 100vh;*/
+	/*background-color: green;*/
+	margin-bottom: 3vh;
+	margin: auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+	
+}
+
+
+
+
+
+
+
