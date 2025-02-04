@@ -27,6 +27,7 @@ nav{
 	display: flex;
 	align-items: center; /*aligner dans la hauteur*/
 	justify-content: space-between;
+
 }
 
 nav a{
