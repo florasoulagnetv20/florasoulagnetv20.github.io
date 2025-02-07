@@ -1,14 +1,35 @@
-@font-face {
+/*@font-face {
     font-family: "DinaChaumont-DisplayRegular";
     src: url("font/DinaChaumont-DisplayRegular.woff2");      
         
+}*/
+
+/*@font-face {
+    font-family: "DinaChaumont-DisplayRegular";
+    src: url("font/LibreBaskerville-Italic.ttf");      
+        
+}*/
+
+@font-face {
+    font-family: "DinaChaumont-DisplayRegular";
+    src: url("font/LibreBaskerville-Italic.ttf");      
+        
 }
+
 
 @font-face {
     font-family: "DinaChaumont-TextRegular";
     src: url("font/DinaChaumont-TextRegular.woff2");      
         
 }
+
+
+
+/*@font-face {
+    font-family: "DinaChaumont-TextRegular";
+    src: url("font/Baskervville-Italic.ttf");      
+        
+}*/
 
 
 
@@ -67,8 +88,9 @@ ul{
 .li-nav{
 	font-family: DinaChaumont-DisplayRegular;
 	text-transform: uppercase;
-	width: 8vw;
+	width: 9vw;
 	margin: auto;
+	margin-top: 15px;
 	padding: 15px;
 	/*border: red 1px solid;*/
 
@@ -77,7 +99,7 @@ ul{
 
 
 .li-nav:hover{
-	transform: rotate(5deg);
+	/*transform: rotate(5deg);*/
 	transition: ease all 0.5s;
 	color: pink;
 	/*transform: scale(0.9) rotateZ(180deg);*/ 
@@ -321,7 +343,7 @@ article{
 
 h4{
 	font-family: "DinaChaumont-DisplayRegular";
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 
 }
 
