@@ -1,0 +1,318 @@
+nav{
+	margin-top: 2vh;
+	height: 3vh;
+	/*border: red 1px solid;*/
+	display: flex;
+	align-items: center; /*aligner dans la hauteur*/
+	justify-content: space-between;
+
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+}
+
+#logo{
+	/*background-color: yellow;*/
+	margin-left: 0.5vw;
+	width: 20%;
+	/*margin-left: 2vw;*/
+	/*object-fit: cover;*/
+
+}
+
+.li-nav{
+	font-family: DinaChaumont-DisplayRegular;
+	text-transform: uppercase;
+	font-size: 0.3em;
+	width: 9vw;
+	margin: auto;
+	padding: 15px;
+	/*border: red 1px solid;*/
+
+
+}
+
+
+
+
+
+
+
+/*projets*/
+
+#conteneur{ /*boite mère*/
+	width: 92vw;
+	/*height: 1800px;*/
+	/*border: 1px solid black;*/
+	margin: 20px auto;
+	/*object-fit: cover;*/
+	
+
+	display: grid;
+	/*grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;*/
+	/*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+	grid-template-columns: repeat(16, 1fr);
+	/*grid-template-rows: 20% 20% 20% 20% 20%;*/
+	grid-template-rows: repeat(32,5vh);
+	grid-auto-flow: row;
+	grid-gap: 10px ; /*gouttière entre les grilles*/
+}
+
+#portraits{
+	/*grid-column-start: 1;
+	grid-column-end:5 ;*/
+	grid-column: 1/8;
+
+
+	/*grid-row-start: 1 ;
+	grid-row-end: 3;*/
+	/*grid-row: span 7;*/
+	grid-row: 1/8;
+
+	/*background: yellow;*/
+
+	/*width: 30vw;*/
+
+	/*overflow: hidden;*/
+}
+
+
+#formatpaysage{
+
+	/*grid-column-start: 2;
+	grid-column-end:6 ;*/
+	grid-column: 8/17;
+
+	/*grid-row-start: 2 ;
+	grid-row-end: 3;*/
+	/*grid-row: span 11 ;*/
+	grid-row: 1/9;
+
+	/*background: yellow;*/
+}
+
+#voyageboutrue{
+	grid-column: 1/8;
+	grid-row: 8/14;
+	/*width: 13vw;*/
+
+	/*height: 50%;*/
+}
+
+#decale{
+	grid-column: 1/8;
+	grid-row: 14/20;
+}
+
+#cesarsalade{
+	grid-column: 8/17;
+	grid-row: 9/13;
+}
+
+#catalogueartiste{
+	grid-column: 8/17;
+	grid-row: 13/16;
+	/*width: 30vw;*/
+}
+
+#unefoisetpasplus{
+	grid-column: 8/17;
+	
+	/*grid-column: span 5;*/
+
+	/*grid-row-start: 2 ;
+	grid-row-end: 3;*/
+	grid-row: 13/17;
+
+	/*background: green;*/
+}
+
+#koudou{
+	grid-column: 8/17;
+	grid-row: 17/20;
+}
+
+#ravel{
+	grid-column: 1/8;
+	grid-row: 20/23;
+
+	/*grid-column: 11/17;
+	grid-row: 16/19;*/
+}
+
+#timbre{
+	grid-column: 8/17;
+	grid-row: 20/27;
+}
+
+#glitch{
+	grid-column: 8/17;
+	grid-row: 27/31;
+}
+
+#madfest{
+	grid-column: 1/8;
+	grid-row: 23/29;
+}
+
+#senslivre{
+	grid-column: 8/17;
+	grid-row: 31/34;
+}
+
+#experimentationsserigraphie{
+	grid-column: 1/8;
+	grid-row: 29/34;
+}
+
+
+
+
+/*à propos*/
+
+
+#sectionapropos div p{
+
+	font-family: 'DinaChaumont-TextRegular';
+	font-size: 0.8em;	
+	
+}
+
+#competenceslogiciels{
+	width: 80vw;
+	/*background-color: black;*/
+	/*display: flex;*/
+	/*height: 30vh;*/
+
+}
+
+#competenceslogiciels ul{
+	width: 80vw;
+	/*background-color: grey;*/
+	/*display: flex;*/
+/*	justify-content: space-around;*/
+	/*padding: 30px;*/
+	margin-top: 30px;
+	text-align: left;
+	margin-bottom: 2vh;
+	
+
+}
+
+#competenceslogiciels ul li{
+	font-family: 'DinaChaumont-TextRegular';
+	font-size: 0.8em;
+
+}
+
+
+
+#cvcontact li{
+	/*border: yellow 3px solid;*/
+	font-family: 'DinaChaumont-TextRegular';
+	font-size: 0.5em;
+}
+
+
+footer{
+	height: 8vh;
+	margin-top: 8vh;
+	text-align: center;
+	/*margin: auto;*/
+}
+
+#p-footer{
+
+	font-size: 0.5em;
+
+}
+
+
+
+
+#siteenconstruction{
+	font-family: DinaChaumont-DisplayRegular;
+	text-transform: uppercase;
+	width: 50vw;
+	margin: auto;
+	padding: 15px;
+	font-size: 0.5em;
+}
+
+#titre{
+	padding-top: -500vh;
+}
+
+h1{
+	text-transform: uppercase;
+	font-size: 2em;
+	font-family: DinaChaumont-DisplayRegular;
+	text-align: center;
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 1em;
+	font-family: DinaChaumont-DisplayRegular;
+	text-align: center;
+	/*background-color: blue;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*page projet */
+
+.page-projet{
+	margin-top: -5vh;
+}
+
+
+.page-projet-img-presentation-paysage{
+	height: 43vh; /*je met une hauteur à ton image qui correspond à la hauteur restante soustraite du header*/
+	width: 100vw;
+	overflow: hidden;
+}
+
+
+.page-projet ul li {
+	font-family: DinaChaumont-TextRegular;
+	font-size: 0.3em;
+}
+
+
+.page-projet .description{
+	margin-left: 4vw;
+	margin-bottom: 8vh;
+	line-height: 1.2em;
+	width: 90vw;
+	font-family: DinaChaumont-TextRegular;
+	font-size: 0.8em;
+
+}
+
+.page-projet-footer{
+	width: 92vw;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0vh;
+	margin-left: 4vw;
+	font-size: 0.5em;
+	font-family: 'DinaChaumont-DisplayRegular';
+	margin-bottom: -4vh; /*A RETIRER QUAND TU ENLEVES LE MARGIN TOP ENORME DE TON FOOTER*/
+}
+
+
+
+
+

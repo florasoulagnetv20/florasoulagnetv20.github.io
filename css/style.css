@@ -88,7 +88,7 @@ ul{
 .li-nav{
 	font-family: DinaChaumont-DisplayRegular;
 	text-transform: uppercase;
-	width: 8vw;
+	width: 9vw;
 	margin: auto;
 	padding: 15px;
 	/*border: red 1px solid;*/
@@ -1214,7 +1214,7 @@ h3{
 	margin-top: 5vh;
 	margin-left: 4vw;
 	font-size: 1em;
-	font-family: 'DinaChaumont-TextRegular';
+	font-family: 'DinaChaumont-DisplayRegular';
 	margin-bottom: -4vh; /*A RETIRER QUAND TU ENLEVES LE MARGIN TOP ENORME DE TON FOOTER*/
 }
 
