@@ -1181,7 +1181,8 @@ h3{
 	margin-bottom: 8vh;
 	line-height: 1.2em;
 	width: 90vw;
-	font-family: DinaChaumont-TextRegular;
+	/*font-family: DinaChaumont-TextRegular;*/
+	font-family: helvetica;
 	font-size: 1.5em;
 
 }
