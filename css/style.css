@@ -447,7 +447,8 @@ a {
 }
 
 h3{
-	font-family: 'DinaChaumont-TextRegular' ;
+	/*font-family: 'DinaChaumont-TextRegular' ;*/
+	font-family: helvetica ;
 	/*border: red 1px solid;*/
 	font-size: 2em;
 	text-transform: uppercase;
@@ -455,7 +456,8 @@ h3{
 }
 
 #titreprojet{
-	font-family: 'DinaChaumont-TextRegular' ;
+	/*font-family: 'DinaChaumont-TextRegular' ;*/
+	font-family: helvetica ;
 	font-size: 2em;
 	border: red 1px solid;
 }
@@ -463,7 +465,8 @@ h3{
 #texteportraits{
 	width: 48%;
 	padding-right: 2vw;
-	font-family: 'DinaChaumont-TextRegular' ;
+	/*font-family: 'DinaChaumont-TextRegular' ;*/
+	font-family: helvetica ;
 	font-size: 1.3em;
 
 }
@@ -546,14 +549,16 @@ h3{
 #boutonprojets li{
 	width: 10%;
 	/*background-color: purple;*/
-	font-family: 'DinaChaumont-TextRegular';
+	/*font-family: 'DinaChaumont-TextRegular';*/
+	font-family: helvetica ;
 
 }
 
 
 #boutonsuivant{
 	text-align: right ;
-	font-family: 'DinaChaumont-TextRegular';
+	/*font-family: 'DinaChaumont-TextRegular';*/
+	font-family: helvetica ;
 
 }
 
