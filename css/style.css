@@ -222,7 +222,7 @@ footer{
 	/*grid-template-columns: 1fr 1fr 1fr 1fr;*/
 	grid-template-columns: repeat(16, 1fr);
 	/*grid-template-rows: 20% 20% 20% 20% 20%;*/
-	grid-template-rows: repeat(45,5vh);
+	grid-template-rows: repeat(43,5vh);
 	grid-auto-flow: row;
 	grid-gap: 10px ; /*gouttière entre les grilles*/
 }
