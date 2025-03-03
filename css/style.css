@@ -1146,7 +1146,8 @@ h3{
 
 .page-projet ul{
 	width: 100vw;
-	font-family: DinaChaumont-TextRegular;
+	/*font-family: DinaChaumont-TextRegular;*/
+	font-family: helvetica;
 	font-size: 2em;
 	margin-right: 2vw;
 	display: block;
@@ -1169,13 +1170,15 @@ h3{
 
 
 .page-projet ul li {
-	font-family: DinaChaumont-TextRegular;
+	/*font-family: DinaChaumont-TextRegular;*/
+	font-family: helvetica;
 	font-size: 0.5em;
 }
 
 
 .page-projet ul li em{
-	font-family: DinaChaumont-TextRegular;
+	/*font-family: DinaChaumont-TextRegular;*/
+	font-family: helvetica;
 	font-size: 4em;
 }
 
