@@ -647,7 +647,7 @@ h3{
 
 #sectionapropos div p{
 
-	font-family: 'DinaChaumont-TextRegular';	
+	font-family: helvetica;	
 	
 }
 
@@ -675,7 +675,7 @@ h3{
 
 
 #competenceslogiciels ul li{
-	font-family: 'DinaChaumont-TextRegular';
+	font-family: helvetica;
 	
 
 }
@@ -698,7 +698,7 @@ h3{
 
 #cvcontact li{
 	/*border: yellow 3px solid;*/
-	font-family: 'DinaChaumont-TextRegular';
+	font-family: 'DinaChaumont-DisplayRegular';
 	/*font-size: 1.3em;*/
 }
 
